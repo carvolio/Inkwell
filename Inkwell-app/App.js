@@ -1,14 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import SearchScreen from './screens/search_screen';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Button onclick>
-        <Text>Search</Text>
-      </Button>
-    </View>
-  );
+  return <SearchScreen/>;
 }
 
 const styles = StyleSheet.create({
