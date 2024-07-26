@@ -5,3 +5,5 @@ const colors = {
     coral: '#E56B6F',
     orange: '#EAAC8B',
 }
+
+export default colors;
