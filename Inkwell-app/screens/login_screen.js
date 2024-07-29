@@ -6,7 +6,7 @@ import colors from '../constants';
 import PrimaryButton from '../components/primary_button';
 import PrimaryTextInput from '../components/primary_textinput';
 
-export default function LoginScreen() {
+export default function LoginScreen({ navigation }) {
   const login = () => {
     navigation.navigate('SearchScreen')
   }
